@@ -55,8 +55,12 @@ To **exit** the container, it is enough to type the command
 ```
 exit
 ```
-To **open** it again after closing it, it is possible to use the command
+To **start** it again after closing it, it is possible to use the command
+```
+docker start container_name 
+```
+where instead of *container_name* is a placeholder to substitute with the name of the container to start.
+To **open** the `bash` of a runnig container, it is possible to type
 ```
 docker exec -it container_name bash
 ```
-where instead of *container_name* is a placeholder to substitute with the name of the container to reopen.
