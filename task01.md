@@ -26,14 +26,14 @@ Then select to download for **Windows-AMD64**. The download of the Docker Instal
 
 After this procedure, open Docker Desktop and it should be ready to be used:
 
-(PICTURE)
+![Docker home](./docker_home.png)
 
 It is possible to get more information on Docker in general [here](https://docs.docker.com/get-started/resources/). In the next section we will focus on the creation of an Almalinux 9 container
 
 ## **Running an Almalinux 9 container**
 The first step to create an Almalinux 9 container is to download an Almalinux 9 image. In order to do so, open the Docker terminal identified by the icon >_
 
-(PICTURE)
+![Docker terminal](./docker_terminal.png)
 
 Then use the following command:
 ```
@@ -41,7 +41,7 @@ docker pull almalinux:9
 ```
 This will install the image, which will be listed in the **Images** section:
 
-(PICTURE)
+![Docker images](./docker_images.png)
 
 Now, to create the container type in the terminal
 ```
@@ -49,7 +49,7 @@ docker run -it --name example almalinux:9 bash
 ```
 In this way you will create an Almalinux 9 container with the name "example" and open its bash. The container will appear in the **container** section and will be ready to be used:
 
-(PICTURE)
+![Docker container](./docker_container.png)
 
 To **exit** the container, it is enough to type the command 
 ```
