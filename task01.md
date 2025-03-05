@@ -51,7 +51,7 @@ In this way you will create an Almalinux 9 container with the name "example" and
 
 (PICTURE)
 
-At this point, to **exit** the container, it is enough to type the command 
+To **exit** the container, it is enough to type the command 
 ```
 exit
 ```
