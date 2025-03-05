@@ -20,7 +20,7 @@ wsl --set-default-version 2
 ## **Installing Docker**
 We are now ready to install Docker. The first step is to go to the [official Docker website](https://www.docker.com/) and clik on the **Download Docker Desktop** button:
 
-![Docker site](~/images01/docker_install.png)
+![Docker site](./docker_install.png)
 
 Then select to download for **Windows-AMD64**. The download of the Docker Installer will automatically start. Once the Installer is ready start it and procede with the installation of Docker Desktop. At the end of it, the program will restart Windows, then ask for a registration. It is possible to create a new Docker account, or to use a Github or Google one.
 
