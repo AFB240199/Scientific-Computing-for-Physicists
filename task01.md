@@ -43,7 +43,7 @@ This will install the image, which will be listed in the **Images** section:
 
 ![Docker images](./docker_images.png)
 
-Now, to create the container type in the terminal
+Now, to create the container, type in the terminal
 ```
 docker run -it --name example almalinux:9 bash
 ```
