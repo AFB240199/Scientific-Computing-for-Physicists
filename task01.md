@@ -18,6 +18,8 @@ wsl --set-default-version 2
 ```
 
 ## **Installing Docker**
-
+We are now ready to install Docker. The first step is to go to the [official Docker website](https://www.docker.com/) and clik on the **Download Docker Desktop** button:
+(PICTURE)
+Then select to download for **Windows-AMD64**.
 
 ## **Running an Almalinux 9 container**
