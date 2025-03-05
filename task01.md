@@ -61,11 +61,11 @@ docker stop example
 ```
 where *example* is a placeholder to substitute with the name of the container to stop.
 
-To **start** it again after closing it, it is possible to use the command
+To **start** it again after closing it, use the command
 ```
 docker start example
 ```
-To **open** the `bash` of a runnig container, it is possible to type
+To **open** the `bash` of a runnig container, type
 ```
 docker exec -it example bash
 ```
