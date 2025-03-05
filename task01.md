@@ -45,7 +45,7 @@ This will install the image, which will be listed in the **Images** section:
 
 Now, to create the container type in the terminal
 ```
-docker run -it -name example almalinux:9 bash
+docker run -it --name example almalinux:9 bash
 ```
 In this way you will create an Almalinux 9 container with the name "example" and open its bash. The container will appear in the **container** section and will be ready to be used:
 
