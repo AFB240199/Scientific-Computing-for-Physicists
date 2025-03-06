@@ -22,7 +22,7 @@ We are now ready to install Docker. The first step is to go to the [official Doc
 
 ![Docker site](./docker_install.png)
 
-Then select to download the version for **Windows-AMD64**. The download of the Docker Installer will automatically start. Once the Installer is ready start it and procede with the installation of Docker Desktop. At the end of it, the program will restart Windows, then ask for a registration. It is possible to create a new Docker account or to use a Github one.
+Then select to download the version for **Windows-AMD64**. The download of the Docker Installer will automatically start. Once the Installer is ready, start it and procede with the installation of Docker Desktop. At the end of it, the program will restart Windows, then ask for a registration. It is possible to create a new Docker account or to use a Github one.
 
 After this procedure, open Docker Desktop and it should be ready to use:
 
