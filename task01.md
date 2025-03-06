@@ -28,7 +28,7 @@ After this procedure, open Docker Desktop and it should be ready to use:
 
 ![Docker home](./docker_home.png)
 
-It is possible to get more information on Docker in general [here](https://docs.docker.com/get-started/resources/). In the next section we will focus on the creation of an Almalinux 9 container
+It is possible to get more information on Docker [here](https://docs.docker.com/get-started/resources/). In the next section we will focus on the creation of an Almalinux 9 container
 
 ## **Running an Almalinux 9 container**
 The first step to create an Almalinux 9 container is to download an Almalinux 9 image. In order to do so, open the Docker terminal identified by the icon >_
