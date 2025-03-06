@@ -22,7 +22,7 @@ We are now ready to install Docker. The first step is to go to the [official Doc
 
 ![Docker site](./docker_install.png)
 
-Then select to download for **Windows-AMD64**. The download of the Docker Installer will automatically start. Once the Installer is ready start it and procede with the installation of Docker Desktop. At the end of it, the program will restart Windows, then ask for a registration. It is possible to create a new Docker account, or to use a Github or a Google one.
+Then select to download for **Windows-AMD64**. The download of the Docker Installer will automatically start. Once the Installer is ready start it and procede with the installation of Docker Desktop. At the end of it, the program will restart Windows, then ask for a registration. It is possible to create a new Docker account or to use a Github one.
 
 After this procedure, open Docker Desktop and it should be ready to be used:
 
@@ -51,11 +51,11 @@ In this way you will create an Almalinux 9 container with the name "example" and
 
 ![Docker container](./docker_container.png)
 
-To **exit** the container, it is enough to type the command 
+To **exit** the container, type the command 
 ```
 exit
 ```
-while, to **stop** it, 
+To **stop** it, write in the terminal 
 ```
 docker stop example
 ```
