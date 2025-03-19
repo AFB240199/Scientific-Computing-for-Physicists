@@ -77,7 +77,53 @@ int main() {
 
 ## **Matrix Multiplication with Julia**
 ```Julia
+function matrix_multiply(A, B, N)
+    C = zeros(Float64, N, N)  # Initialize C with zeros
+    for i in 1:N
+        for j in 1:N
+            for k in 1:N
+                C[i, j] += A[i, k] * B[k, j]
+            end
+        end
+    end
+    return C
+end
 
+function main()
+    N = 100  # Adjust to 10, 100, or 10,000
+    value_A, value_B = 3.0, 7.1
+
+    # Initialize matrices A and B
+    A = fill(value_A, N, N)
+    B = fill(value_B, N, N)
+
+    println("First few elements of A and B:")
+    println("A[1,1] = ", A[1,1], ", B[1,1] = ", B[1,1])  # Debug print for verification
+
+    # Perform matrix multiplication
+    start_time = time()
+    C = matrix_multiply(A, B, N)
+    elapsed_time = time() - start_time
+
+    println("Time elapsed: $elapsed_time seconds")
+
+    # Validate result with a precision tolerance
+    expected = value_A * value_B
+    tolerance = 1e-9
+    valid = all(abs.(C .- expected) .< tolerance)  # Validation within tolerance
+
+    println("Validation: ", valid ? "Success" : "Failure")
+
+    # Debug: Print first few elements of C if validation fails
+    if !valid
+        println("First few elements of C:")
+        for i in 1:min(N, 5), j in 1:min(N, 5)
+            println("C[$i,$j] = ", C[i, j])
+        end
+    end
+end
+
+main()
 ```
 
 ## **Matrix Multiplication with C**
